@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="main">
+        <h1>Token Extractor</h1>
+        <button type="button" onclick="info()">Info</button>
+        <br><br>
+
+        <label style="color:blue" for="tokenGiocatore">Numero Token Giocatore</label>
+        <input type="number" id="tokenGiocatore">
+        <br><br>
+        <label style="color:red" for="tokenMaster">Numero Token Master</label>
+        <input type="number" id="tokenMaster">
+        <br><br>
+
+        <button type="button" onclick="estraiToken()">Estrai</button>
+    
+        <button type="button" onclick="estraiDiNuovo()">Estrai di nuovo</button>
+        <br>
+
+        <div id="risultato">
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
